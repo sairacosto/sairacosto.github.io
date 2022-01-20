@@ -9,30 +9,33 @@
          color: rgb (0, 0, 139);
          font-size: 3em
          background-color: rgb (173, 216, 230);
-         <span class="script"> Koberl at Blue </span>
+         font-family: San-serif
       </h1>
       <h2>
          color: rgb (0, 0, 139);
          font-size: 2em
          background-color: rgb (173, 216, 230);
-      
+         font-family: San-serif
       </h2>
       <h3>
          color: rgb (0, 0, 139);
          font-size: 1em
          background-color: rgb (173, 216, 230);
+         font-family: San-serif
       </h3>
    
       <h3>
          color: rgb (0, 0, 139);
          font-size: 1em
          background-color: rgb (173, 216, 230);
+         font-family: San-serif
       </h3>
   
       <h3>
          color: rgb (0, 0, 139);
          font-size: 1em
          background-color: rgb (173, 216, 230);
+         font-family: San-serif
       </h3>
    
 </css>
