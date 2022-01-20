@@ -1,9 +1,4 @@
 /*css document*/
-<css>
-   <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" type="text/css" href="style.css">
-   </head>
 
       <h1>
          color: rgb (0, 0, 139);
@@ -37,5 +32,3 @@
          background-color: rgb (173, 216, 230);
          font-family: San-serif
       </h3>
-   
-</css>
