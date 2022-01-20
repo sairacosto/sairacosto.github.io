@@ -1,4 +1,4 @@
-<*css document*>
+/*css document*/
 <css>
    <head>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,21 +6,21 @@
    </head>
    <body>
       <h1>
-         color: rgb(0, 0, 139);
+         color: rgb (0, 0, 139);
          font-size: 3em
-         background-color: rgb(173, 216, 230);
+         background-color: rgb (173, 216, 230);
          <span class="script"> Koberl at Blue </span>
       </h1>
       <h2>
-         color: rgb(0, 0, 139);
+         color: rgb (0, 0, 139);
          font-size: 2em
-         background-color: rgb(173, 216, 230);
+         background-color: rgb (173, 216, 230);
          Main Menu
       </h2>
       <h3>
-         color: rgb(0, 0, 139);
+         color: rgb (0, 0, 139);
          font-size: 1em
-         background-color: rgb(173, 216, 230);
+         background-color: rgb (173, 216, 230);
          Appetizers
       </h3>
       <ul>
@@ -56,9 +56,9 @@
          </li>
       </ul>
       <h3>
-         color: rgb(0, 0, 139);
+         color: rgb (0, 0, 139);
          font-size: 1em
-         background-color: rgb(173, 216, 230);
+         background-color: rgb (173, 216, 230);
          Salads
       </h3>
       <ul>
@@ -109,9 +109,9 @@
          <p>$25.00</p>
       </li>
       <h3>
-         color: rgb(0, 0, 139);
+         color: rgb (0, 0, 139);
          font-size: 1em
-         background-color: rgb(173, 216, 230);
+         background-color: rgb (173, 216, 230);
          Dessert
       </h3>
       <li>
