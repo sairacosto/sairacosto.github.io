@@ -1,27 +1,37 @@
 /* CSS DOCUMENT*/
 
 body{
-	background-color: rgb (244, 239, 231);
-	color:  rgb (108, 85, 75);
+	background-color: rgb (236, 287, 216);
+	color:  rgb (49, 49, 49);
 }
 
 h1{
          font-family: Sans-serif;
          font-size: 3em;
-         /*color: rgb (102, 178, 255);*/
+	 font-color: rgb (49, 49, 49);
          padding:  0.5em;
-         background-color: rgb (0, 76, 153);
+         background-color: rgb (170, 180, 255);
 }
 
 h2{
          font-family: Sans-serif;
-         color: rgb (102, 178, 255);
+         font-color:  rgb (49, 49, 49);
          font-style: italic;
-         font-size: 2em
+         font-size: 2em;
 }
 
 h3{
          font-family: sans-serif;
-         color: rgb (102, 178, 255);
-         font-size: 1.8em
+         font-color:  rgb (49, 49, 49);
+         font-size: 1.8em;
+	 padding: .25em 0 .25em .5em;
+}
+p{
+	font-family: sans-serif;
+	font-style: normal;
+}
+
+.price{
+	font-family: sans-serif;
+	font-style: italic;
 }
