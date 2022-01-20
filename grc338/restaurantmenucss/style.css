@@ -3,21 +3,24 @@
 body{
 	background-color: rgb (244, 239, 231);
 	color:  rgb (108, 85, 75);
+	text-align:center;
 }
 
 h1{
          font-family: serif;
          font-size: 3em;
-	/*color: rgb(25, 50, 60);*/
-	padding:  0.5em;
-	background-color: rgb (205, 215, 230);
+	 /*color: rgb(25, 50, 60);*/
+	 padding:  0.5em;
+	 background-color: rgb (205, 215, 230);
+	 text-align:center;
 }
 
 h2{
          font-family: serif;
-         font-color:  rgb (49, 49, 49);
+         color:  rgb (49, 49, 49);
          font-style: italic;
          font-size: 2em;
+	 text-align:center;
 }
 
 h3{
@@ -26,13 +29,16 @@ h3{
 	 background-color: rgb (205, 215, 230);
          font-size: 1.8em;
 	 padding: .25em 0 .25em .5em;
+	 text-align:center;
 }
 p{
 	font-family: sans-serif;
 	font-style: normal;
+	text-align:center;
 }
 
 .price{
 	font-family: sans-serif;
 	font-style: italic;
+	text-align:center;
 }
