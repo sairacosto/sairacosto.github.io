@@ -1,0 +1,94 @@
+/*CSS document*/
+
+body {
+
+}
+
+main {
+    padding: 2em 1em 1em 2em
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+header {
+    padding-top: 2em
+}
+h3 {
+	color: rgb(61, 42, 41);
+	font-family: Etna, regular;
+	font-weight: 700;
+	font-style: normal;
+	margin-bottom: 0.5em;
+    text-decoration: none;
+    font-size: 1.6em;
+  
+}
+h2 {
+	color: rgb(61, 42, 41);
+	font-family: Etna, regular;
+	font-weight: 700;
+	font-style: normal;
+	margin-bottom: 0.5em;
+    text-decoration: none;
+  
+}
+figcaption {
+    color: rgb(61, 42, 41);
+	font-family: FreightBig Pro, book;
+	font-weight: 200;
+	font-style: normal;
+	margin-bottom: 0.5em;
+    text-decoration: none;
+}
+p {
+	font-family: FreightBig Pro, book;
+	font-weight: 400;
+    font-size: 1.3em;
+	font-style: normal;
+	color: rgb(61, 42, 41);
+    margin-bottom: 3em;
+}
+figure {
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    grid-columns: 1/4;
+    margin: 1em;
+    font-size: 1.4em;
+    letter-spacing: 0.05em;
+    font-family: Etna, regular;
+}
+nav ul li a{
+    color: rgb(61, 42, 41);
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+nav ul li a:hover {
+    color:rgb(142, 157, 108);
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { 
+    text-decoration: none; 
+    color:rgb(61, 42, 41);
+}
+
+
+a:active { text-decoration: none; }
+
