@@ -1,122 +1,162 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" type="text/css" href="flexbox.css" />
-        <title>Flexbox basic layout</title>
-    </head>
-    <body>
-        <div class="container">
-            <header>
-                <h1> The A11Y Project
-</h1>
-            </header>
-            <article>
-                <figure>
-                    <img src="accessibility-icon-illustration.jpg" alt="Illustration of a computer with four icons representing Visual Impairment, Hearing Impairment, Motor Skills/Physical Disabilities, Photosensitive Seizures, and Cognitive Disabilities.">
-                         <!-- Photo by Dreamhost) -->
-                </figure>
-              <p>
-				  Accessibility can be a complex and difficult topic. The Accessibility Project understands this and wants to help make it easier to implement on the web. Our goal is to accomplish this with three principles in mind:
-              </p>
+<!doctype html>
+    <html>
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <title>Britches Magazine</title> <!-- ★ Please include a proper title.-->
 
-			<ol>
-				<li>
-					<p><strong>Digestible.</strong> We strive to feature short, digestible pieces of content.</p>
-				</li>
-				<li>
-					<p><strong>Up-to-date.</strong> The project is hosted on GitHub so information can be current with the latest standards.</p>
-				</li>
-				<li>
-					<p><strong>Forgiving.</strong> People make mistakes, so we seek to be encouraging.</p>
-				</li>
-			</ol>
-
-			<h2>Why accessibility is important</h2>
-
-			<p>
-				Blind and visually impaired make up 285,000,000 people according to the World Health Organization (June 2012) with 39,000,000 categorized as legally blind and the remaining 246,000,000 visually impaired. Deaf and hearing impaired make up 275,000,000 (2004) in the moderate-to-profound hearing impairment category.
-			</p>
-
-			<p>
-				To put these in perspective, the population of the United States of America is 315,000,000 (January 2013).
-			</p>
-
-			<p>
-				Disabilities can also be conditional. A broken arm, a loud restaurant, harsh glare, not speaking the local language—all are examples where someone may benefit from accessible practices.
-			</p>
-			
-			<h2>What does the term A11Y mean?</h2>
-
-			<p>
-				In short, A11Y means “accessibility”. A11Y is what is known as a numeronym, which is somewhat similar to an acronym. Unlike an acronym, numbers are used in place of letters to shorten the term. You may already be familiar with other numeronyms, such as “K-9” for “Canine” or “W3C” for “World Wide Web Consortium”.
-			</p>
-
-			<p>
-				There are a number of ways a numeronym can be created. In the case of translating “accessibility” to “A11Y”, the first and last letters of “accessibility” are preserved, replacing the remaining letters between with their sum total of 11.
-			</p>
-
-			<p>
-				One of the motivations for a numeronym is the limited space available on social media platforms for posting content. For example, on Twitter—where the character limit was 140 until November 2017—replacing the hashtag #accessibility with #a11y freed up 9 extra characters for the author to use.
-			</p>
-
-			<p>
-				Another motivation is discoverability. You can find more relevant resources, and with greater precision. Using the term “accessibility” to search, you will find many irrelevant resources using that word in various other contexts. You may also miss resources in languages other than English. Many accessibility specialists from around the world use “a11y” as an international technical term when speaking about their work.
-			</p>
-
-
-            </article>
-            <aside>
+            <!-- Helpful meta tags to fight GitHub aggresive caching-->
+                <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+                <meta http-equiv="Pragma" content="no-cache" />
+                <meta http-equiv="Expires" content="0" />
             
-                <section>
-                	<a href="https://a11yproject.com/checklist/">
-						<figure>
-							<img src="notebook-with-a-pen.jpg" alt="Notebook open with a pen on top.">
-							<!-- Photo by Aaron Burden on Unsplash (https://unsplash.com/@aaronburden) -->
-						</figure>
-						<h3>Checklist</h3>
-						<p>
-							Determine how accessible your site is.
-						</p>
-                    </a>
-                </section>
+        </head>	
+
+        <body>
+            <div class="container">
+                <header>
+                    <h1> 
+                        <a href="index.html"> <img class="logo" src="britchesmagazine.png" alt="=Britches Magazine logo."></a>
+                    </h1>
+                    <nav>
+                        <ul>
+                           <!-- ★ Use as many sections as you want, but replace the dashed lines with actual names for the sections of the publication. You may keep them all linked to the pound symbol, though. -->
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Articles</a></li>
+                            <li><a href="#">Subscribe</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                <main>
                 
-                <section>
-                	<a href="https://a11yproject.com/resources/">
-						<figure>
-							<img src="pile-of-colorful-books.jpg" alt="Pile of colorful books.">
-							<!-- Photo by Robert Anasch on Unsplash (https://unsplash.com/@diesektion) -->
-					   </figure>
-						 <h3>Resources</h3>
-						<p>
-							Accessibility software, books, blogs, online tools, and more.
-						</p>
-                    </a>
-                </section>
+                    <section class="mainstory"><!-- ★ Teaser for the main story. You may want to give it a class.-->
+                        <a href="mainstory.html">
+                            <figure>
+                                <img src="cowgirl.jpeg" alt="Woman riding a horse shot from below.">
+                            </figure>
+                                <h3>The Life of a 21st Century Cowgirl</h3>
+                                <p>
+                                    Here Kate Matheson, a very modern kind of cowgirl, tells Britches what it’s like to live and work in some of the world’s most beautiful – and toughest – landscapes.
+                                </p>
+                        </a>    
+                    </section>
+                    
+                    <section class="secondary"> <!-- ★ Example of a teaser with image.  You may want to give it a different class. -->
+                        <a href="#">
+                            <figure>
+                                <img src="boots.jpg" alt="Cowbot boots.">
+                            </figure>
+                                <h3>Top 5 Cowboy Boot Brands</h3>
+                                <p>
+                                    While cowboy boots were originally designed to be functional — with actual cowboys in mind — they're now something of a fashion staple. Check out our best reccomendations. 
 
-                <section>
-                	<a href="https://a11yproject.com/events/">
-						<figure>
-							<img src="notebook-with-highlighter.jpg" alt="Notebook with a highlighted calendar and a highlighter">
-							<!-- Photo by Estée Janssens on Unsplash (https://unsplash.com/@esteejanssens)  -->
-						</figure>
-						<h3>Events</h3>
-						<p>
-						   Local and remote accessibility events.
-						</p>
-                     </a>
-               </section>
+                                </p>
+                        </a>    
+                    </section>
+
+                    <section class="secondary">
+                        <a href="#">
+                            <figure>
+                                <img src="surfers.jpg" alt="Vintage cowboy boots poster.">
+                            </figure>
+                                <h3>For the Skaters, Surfers, and Cowboys</h3>
+                                <p>
+                                    Seager was founded in 2015 by a group of friends inspired to make apparel, outdoor gear and experiences that would uphold the Grit and Ruggedness of the Old West. To share their love and passion for America’s historical Old West with those who long for the simplicity of life’s many adventures. Their passion for the Old West is matched only by their love of the surf and outdoor adventure lifestyles that come with it.
+                                </p>
+                        </a>    
+                    </section>
+
+                    <section class="secondary"> <!-- ★ Example of a teaser without image.  You may want to give it a third class. -->
+                        <a href="#">
+                            <figure>
+                                <img src="cabin.jpg" alt="Interior design of a cabin home living room.">
+                            </figure>
+                                <h3>Western Done Right</h3>
+                                <p>
+                                    Check out our iinspiration that will fill your house with warmth and style. 
+                                </p>
+                        </a>    
+                    </section>
+
+                    <section class="secondary"> <!-- ★ Example of a teaser without image.  You may want to give it a third class. -->
+                        <a href="#">
+                            <figure>
+                                <img src="youngest2.jpg" alt="Baby girl with a cowgirl hat holding her bottle up to two horses pretending to feed them.">
+                            </figure>
+                                <h3>The Youngest Cowgirl Ever</h3>
+                                <p>
+                                    The Texan toddler was born into a family of ranchers and horseback riders, and first straddled a saddle (with her mother in tow) at the tender age of one month. When photographer Alan Grant visited her family’s farm near Fort Davis, he found the girl holding her own atop her 25-year-old horse, Toy Boy.
+                                </p>
+                        </a>    
+                    </section>
+                    <section class="secondary"> <!-- ★ Example of a teaser without image.  You may want to give it a third class. -->
+                        <a href="#">
+                            <figure>
+                                <img src="rodeo.jpeg" alt="Cowboy riding a bucking horse at a rodeo.">
+                            </figure>
+                                <h3>Help Save Rodeo in CA</h3>
+                                <p>
+                                    For over 100 years, rodeo has been enjoyed by many in the state of California. Recently, there has been a lot of talk in regards to banning rodeo in many California cities. Rodeo is already banned in Napa County, Pasadena, and San Fransisco. Other California cities such as Los Angeles are trying to push forward with this ban.
+                                </p>
+                        </a>    
+                    </section> 
+                    <section class="secondary"> <!-- ★ Example of a teaser without image.  You may want to give it a third class. -->
+                        <a href="#">
+                            <figure>
+                                <img src="westernicon.jpeg" alt="Cowboy riding a bucking horse at a rodeo.">
+                            </figure>
+                                <h3>Western Beauty Icons</h3>
+                                <p>
+                                    Fall is among us, which means a new season. A new season means a new look. When thinking about how to “spice” up your beauty look, one of the best things to do is look for inspiration. Check out these beauty icons and their timeless sense of style.
+                                </p>
+                        </a>    
+                    </section>
                 
+                
+                    
+                    <!-- ★ You will need to replicate the sections above to have 8 to 12 stories in your page, with at least 4 of them with images. -->
 
+                </main>
+<aside>
 
-            </aside>
-            <footer>
-                <p>
-                	<a href="https://a11yproject.com/">a11yproject.com</a>
+    <section class="tertiary"> <!-- ★ Example of a teaser without image.  You may want to give it a third class. -->
+        <a href="#">
+            
+                <h3>The Best Cowboy Cookies</h3>
+                <p>   
+                    Have you been searching for The Best Cowboy Cookies Recipe? THIS IS IT! Featuring coconut, pecans, cinnamon, chocolate, and oats – these cookies are thick, chewy, and so flavorful!     
                 </p>
-            </footer>
-        </div>
-    </body>
-</html>
+        </a>    
+    </section>
+
+    <section class="tertiary"> <!-- ★ Example of a teaser without image.  You may want to give it a third class. -->
+        <a href="#">
+            <a href="#">
+                
+                <h3>Business Spotlight: Paige Leather</h3>
+                <p>
+                    Owner, Paige Albrecht, creates her purses, bags and accessories with chap-weight leather. Just like the traditional chaps the western world has known for decades, each of her pieces are meant to stand the test of time; bringing authenticity and functionality with every creation. With her creative, fashion forward but also classic designs, Paige has successfully brought her own personality into every one of her designs. 
+                </p>
+        </a>    
+    </section>
+
+    <section class="tertiary"> 
+        <a href="#">
+            
+                <h3>Our Favorite Brands</h3>
+                <p>
+                    We’ve gathered up the best brands in the west and made them easy to access right here. Find what you're looking for: from beauty, to fashion, to home.
+                </p>
+        </a>    
+    </section>
+</aside>
+                <footer>
+                    <p> All rights reserved.</p>
+                </footer>
+            </div>
+        </body>
+    </html>
+
 
