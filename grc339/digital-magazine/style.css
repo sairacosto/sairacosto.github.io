@@ -121,22 +121,22 @@ nav ul li a:hover {
     color:rgb(142, 157, 108); 
 }
 a {
-    color:#1e1e1e;
+    color:rgb(61, 42, 41);
     text-decoration: none;
 }
 a:hover { 
     text-decoration: none; 
-    color:rgb(227, 211, 210);
+    color:rgb(142, 157, 108);
     }
 article{
-    border-top: .15rem solid #1e1e1e;
+    border-top: .15rem solid rgb(61, 42, 41);
     padding-top: 3em;
 }
 footer {
     padding-top: 4em;
 }
 aside {
-    border-top: .15rem solid #1e1e1e;
+    border-top: .15rem solid rgb(61, 42, 41);
 }
 .nextstory img {
     padding-top: 3em;
@@ -231,6 +231,4 @@ div.container aside {
         padding-top: 0em;
     }
 }
-
-
 
