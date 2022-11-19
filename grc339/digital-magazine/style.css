@@ -2,7 +2,7 @@
 
 body {
     background-color: rgb(236, 229, 213); 
-    color: #1e1e1e;  
+    color: rgb(61, 42, 41);  
     line-height: 160%; 
     font-family: Etna, regular;  
     font-weight: 300;  
@@ -59,6 +59,9 @@ p{
     margin-top: 0.2em;
 
 }
+nav{
+    float: left
+}
 
 div.container {
     max-width: 70em;
@@ -75,11 +78,7 @@ div.fullstory {
 padding-bottom: 5em;
 }
 
-.logo{
-    padding-top: 1em;
-    max-width: 7em;
-    margin: auto;
-}
+
 
 figure{
     margin: 0;
@@ -141,13 +140,108 @@ aside {
 .nextstory img {
     padding-top: 3em;
 }
+
+
+
 main {
     padding-bottom: 4em;
+    position: relative;
+    overflow: hidden;
 }
 div.container aside {
     padding-top: 2em;
 }
+main.photogallery figure {
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    left: 100%;
+    transition: left 1s, opacity 1s;
+    opacity: 0;
+}
 
+main.photogallery {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: calc(72% + 3em);
+    width: 100%;
+    margin: auto;
+    grid-column: 1/3;
+}
+
+nav.photogallery {
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 0.2em;
+}
+
+input.photogallery {
+    display: none;
+}
+
+section.newsletter ul li label {
+    flex: 1 0 5em;
+    }
+    section.newsletter ul li {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+    }
+    section.newsletter ul li input[type="text"],
+    section ul li input[type="email"],
+    section ul li input[type="tel"],
+    section ul li select {
+    flex: 5 0 25em;
+    box-sizing: border-box;
+    }
+    section.personalinformation {
+    padding-top: 2em;
+    }
+    section.newsletter ul li label {
+    flex: 1 0 5em;
+    }
+
+input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
+input:nth-of-type(2):checked ~ main figure:nth-of-type(2),
+input:nth-of-type(3):checked ~ main figure:nth-of-type(3),
+input:nth-of-type(4):checked ~ main figure:nth-of-type(4),
+input:nth-of-type(5):checked ~ main figure:nth-of-type(5),
+input:nth-of-type(6):checked ~ main figure:nth-of-type(6),
+input:nth-of-type(7):checked ~ main figure:nth-of-type(7),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
+    left: 0;
+    opacity: 1;
+}
+
+
+
+    
+    .formButton {
+        background-color:#e66007;
+        display:inline-block;
+        color:#ffffff;
+        font-size:1em;
+        font-weight: 500;
+        padding: 1em 2em;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        text-decoration:none;
+        text-transform: uppercase;
+    }
+    
+
+    
+    .formButton:hover {
+        background-color: #d1460a;
+        color:#ffffff;
+    }
+    
+    .formButton:active {
+        position:relative;
+        top:0.1875em;
+    }
 @media screen and (min-width: 60em){
  
     div.fullstory {
@@ -162,7 +256,8 @@ div.container aside {
         display: grid;
         grid-gap: 0 1em;
     }
-
+    
+    
     div.container {
         display: grid;
         grid-template-columns: 3fr 1fr;
@@ -180,7 +275,7 @@ div.container aside {
     div.container section.mainstory {
         grid-column: 1/3;
         grid-row: 1/2;
-        padding-bottom: 2em;
+        padding-bottom: 0em;
     }
 
     div.container aside {
@@ -195,6 +290,8 @@ div.container aside {
         display: flex;
         justify-content: left;
        }
+
+  
 
     nav ul{
         text-align: left;
@@ -221,14 +318,32 @@ div.container aside {
         justify-content: left;
     }
     h3 {
-        color:#1e1e1e
+        color:rgb(61, 42, 41)
     }
     aside {
         border-top:none;
-        padding: 1em;
+        padding: 0;
     }
     .nextstory img {
         padding-top: 0em;
     }
+   
+input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
+input:nth-of-type(2):checked ~ main figure:nth-of-type(2),
+input:nth-of-type(3):checked ~ main figure:nth-of-type(3),
+input:nth-of-type(4):checked ~ main figure:nth-of-type(4),
+input:nth-of-type(5):checked ~ main figure:nth-of-type(5),
+input:nth-of-type(6):checked ~ main figure:nth-of-type(6),
+input:nth-of-type(7):checked ~ main figure:nth-of-type(7),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
+    opacity: 1px;
 }
 
+input{
+    display: none;
+}
+div.logo{
+    width: 30%;
+    padding-right: 60em;
+}
+}
