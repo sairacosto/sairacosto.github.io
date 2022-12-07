@@ -39,6 +39,7 @@ h3 {
     font-weight: 600;  
     font-style: normal;
     margin: 0em 0em 0.5em;
+
 }
 
 h3:hover {
@@ -127,21 +128,14 @@ a:hover {
     text-decoration: none; 
     color:rgb(142, 157, 108);
     }
-article{
-    border-top: .15rem solid rgb(61, 42, 41);
-    padding-top: 3em;
-}
+
 footer {
     padding-top: 4em;
 }
-aside {
-    border-top: .15rem solid rgb(61, 42, 41);
-}
+
 .nextstory img {
     padding-top: 3em;
 }
-
-
 
 main {
     padding-bottom: 4em;
@@ -149,7 +143,7 @@ main {
     overflow: hidden;
 }
 div.container aside {
-    padding-top: 2em;
+    padding-top: 0em;
 }
 main.photogallery figure {
     margin: 0;
@@ -218,30 +212,7 @@ input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
 
 
     
-    .formButton {
-        background-color:#e66007;
-        display:inline-block;
-        color:#ffffff;
-        font-size:1em;
-        font-weight: 500;
-        padding: 1em 2em;
-        margin-top: 2em;
-        margin-bottom: 2em;
-        text-decoration:none;
-        text-transform: uppercase;
-    }
-    
 
-    
-    .formButton:hover {
-        background-color: #d1460a;
-        color:#ffffff;
-    }
-    
-    .formButton:active {
-        position:relative;
-        top:0.1875em;
-    }
 @media screen and (min-width: 60em){
  
     div.fullstory {
@@ -281,6 +252,7 @@ input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
     div.container aside {
         grid-column: 2/3;
         grid-row: 2/3;
+    
     }
 
     .logo {
@@ -336,7 +308,7 @@ input:nth-of-type(5):checked ~ main figure:nth-of-type(5),
 input:nth-of-type(6):checked ~ main figure:nth-of-type(6),
 input:nth-of-type(7):checked ~ main figure:nth-of-type(7),
 input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
-    opacity: 1px;
+    opacity: 2s;
 }
 
 input{
